@@ -1,0 +1,103 @@
+*{
+	padding:0;
+	margin:0;
+	}
+	
+a{
+	text-decoration:none;
+	color:#000;
+	display:block;
+	text-shadow:0 0 1px #666666;
+	}
+a:hover{
+	text-shadow:0 0 1px #666666;
+	}
+	
+h2{
+	text-shadow:0 0 1px #666666;
+	}
+ol{
+	
+	}
+
+.wrap{
+	width:500px;
+	border:1px solid #CCC;
+	margin:0 auto;
+	padding-bottom:20px;
+	}
+.ol_parent{
+	width:400px;
+	margin:0 auto;
+	}
+
+.ol_1,.ol_2,.ol_3{
+
+	}
+	
+
+	
+.li_parent{
+	margin:0 auto;
+	width:350px;
+	border-bottom:1px solid #999;
+	margin-top:20px;
+	}
+
+.li_parent:hover{
+	
+	}
+	
+.donghua,.yanzheng,.shangcheng{									/*标题的宽高*/
+	width:350px;
+	height:50px;
+	}
+.h2_tag{
+	color:#09C;
+	width:280px;
+	padding:10px 0 0 10px;
+	transition:all .5s;
+	border-radius:3px;
+	}	
+
+.h2_tag:hover{
+	text-indent:10px;
+	color:#FFF;	
+	background:#093;
+	cursor:pointer;
+	}
+	
+.dl_tag{
+	width:350px;
+	margin-bottom:10px;
+	display:none;
+	}
+	
+.dl_tag a{
+	font-size:20px;
+	color:#09C;
+	
+	}
+	
+.dd_tag{
+	color:#09C;
+	width:280px;
+	height:40px;
+	padding:6px 0 0 5px;
+	margin:5px;
+	transition:all .5s;
+	border-top:1px solid #CCC;
+	}
+.dd_tag:hover{
+	text-indent:10px;
+	background:#093;
+	cursor:pointer;
+	}
+.dd_tag:hover .a_tag{
+	color:#FFF;	
+	}
+	
+.h1_tag{
+	text-align:center;
+	margin-top:10px;
+	}
