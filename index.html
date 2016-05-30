@@ -12,11 +12,12 @@
     	<ul class="ol_parent">
         	<h1 class="h1_tag">Html+Css+Js作品集</h1>
         	<li class="li_donghua li_parent">
-    		<h2 class="donghua h2_tag" id="donghua">1.HTML5小游戏</h2>
-    		<dl class="dl_1 dl_tag" id="dl_1">
-    		<dd class="zhaopianqiang dd_tag"><a href="http://94039419.github.io/fish/index.html" class="a_tag">大鱼喂小鱼</a></dd>
-    		</dl>
+                <h2 class="donghua h2_tag" id="game">1.HTML5小游戏</h2>
+                <dl class="dl_1 dl_tag" id="dl_game">
+                	<dd class="zhaopianqiang dd_tag"><a href="http://94039419.github.io/fish/index.html" class="a_tag">大鱼喂小鱼</a></dd>
+                </dl>
     		</li>
+            <li class="li_donghua li_parent">
             	<h2 class="donghua h2_tag" id="donghua">2.js动画效果</h2>
             	<dl class="dl_1 dl_tag" id="dl_1">
             	    <dd class="zhaopianqiang dd_tag"><a href="http://94039419.github.io/photoAnimate/index.html" class="a_tag">照片墙</a></dd>
@@ -52,6 +53,15 @@
     </div>
     <script>
 		$(function(){
+			$("#game").click(function(){
+				if($("#dl_game").css("display")=="block"){
+					$("#dl_game").fadeOut();
+				}else{
+					$("#dl_game").fadeIn();
+				}
+				
+			});
+			
 			$("#donghua").click(function(){
 				if($("#dl_1").css("display")=="block"){
 					$("#dl_1").fadeOut();
